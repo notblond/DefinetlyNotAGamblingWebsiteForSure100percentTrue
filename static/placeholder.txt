@@ -1,0 +1,1 @@
+[Replace with an image: put a PNG/JPG into static/ and update app to load it]
