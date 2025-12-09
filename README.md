@@ -32,5 +32,6 @@ streamlit run src/app.py
 Notes
 - This is a demo. Replace placeholder assets in `assets/` and `static/`.
 - Animations use a tiny CSS spinner included inline so no extra heavy packages are required.
+- CRYPTO FUNCTION IS NOT TESTED, USE IT ON YOUR OWN RISK
 
 License: demo code. Not for production.
