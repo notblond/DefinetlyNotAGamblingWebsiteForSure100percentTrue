@@ -1,6 +1,13 @@
 """
 Top-level Streamlit entrypoint for Streamlit Cloud.
-This imports and runs the app in `src/app.py` so the cloud can use a root file path.
+This runs the app in `src/app.py` by adding src to sys.path.
 """
 
-from src import app  # noqa: F401 (module executes on import)
+import os
+import sys
+
+# Add src directory to Python path so imports work
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
+# Now import and run the app
+import app  # noqa: F401 (module executes on import)
